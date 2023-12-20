@@ -1,0 +1,2 @@
+-Gawa ng database sa phpmyadmin tapos ito yung name ng database "coffee_shop_db"
+-After mag create ng database, import niyo yung mga .sql sa database

@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+    background-image: url(images/bg-image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar-menu {
+    background-color: black;
+    padding: 6px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-menu .nav-link {
+    margin-top: 4px;
+    color: azure;
+}
+
+.navbar-menu img {
+    width: 120px;
+    height: 100%;
+}
+
+.homepage {
+    padding: 26px;
+    text-align: center;
+    color: white;
+}
+
+.homepage .logo img {
+    width: 240px;
+    height: 100%;
+}
+
+.homepage .product-img {
+    padding-top: 36px;
+    padding-bottom: 36px;
+}
+
+.homepage .product-img img {
+    width: 280px;
+    height: 280px;
+}
+
+.homepage .store-desc h3 {
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+
+}
+
+.about-us-page {
+    text-align: center;
+    color: white;
+    padding: 36px;
+}
+
+.about-us-page .about-us-desc h1 {
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1.5px;
+}
+
+.about-us-page .about-us-desc h3 {
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1.5px;
+}
+
+.about-us-page p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+.about-us-page img {
+    height: 360px;
+}
+
+.about-us-page .store-contacts {
+    margin-top: 24px;
+}
+
+.about-us-page .store-contacts h4 {
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1.5px;
+}
+
+.about-us-page .store-contacts span {
+    margin-left: 16px;
+}
+
+.login-signup-page {
+    padding: 64px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+.login-signup-page .login-box {
+    width: 40%;
+    margin: auto;
+    padding: 56px;
+    padding-bottom: 0;
+    border: 2px solid white;
+    color: white;
+}
+
+.login-signup-page .avatar {
+    width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+    right: 45%;
+    top: 12%;
+}
+
+.login-box input[type="text"],input[type="email"], input[type="password"]{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 50px;
+	color: rgb(255, 255, 255);
+	font-size: 16px;
+}
+
+.login-box input {
+    width: 100%;
+    margin: auto;
+    margin-top: 16px;
+}
+
+.login-signup-page h3 {
+    margin-top: 36px;
+}
+
+.login-signup-page button {
+    width: 100%;
+    background-color: #e2c36d;
+    color: white;
+    margin-top: 55px;
+    border-radius: 20px;
+}
+
+.login-signup-page button:hover {
+    background-color: #e2c36d;
+}
+
+.login-signup-page .signup {
+    margin-top: 16px;
+    font-size: 13px;
+}
+
+.alert {
+    padding: 2px;
+}
+
+.menu {
+    text-align: center;
+    color: white;
+    padding: 36px;
+}
+
+.menu .menu-box {
+    padding: 16px;
+    border: 2px solid white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.menu .menu-box h5 {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+.menu-box .buttons {
+    text-align: right;
+}
+
+.menu-box .buttons .btn {
+    font-size: 12px;
+}
+
+.menu-box .product-name {
+    margin-top: 2px;
+}
+
+.modal-content {
+    color: black;
+}
+
+.modal-content .modal-header h1{
+    font-size: 30px;
+    margin: 0;
+    letter-spacing: 1.5px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.modal-content .modal-body {
+    text-align: left;
+}
+
+.modal-content .form-check {
+    text-align: center;
+    margin-top: 12px;
+}
+
+.modal-content .form-check .form-check-input {
+    margin-top: 12px;
+}
+
+.modal-content .form-select {
+    width: 50%;
+}
+
+.order-history {
+    padding: 56px;
+    text-align: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.order-history h1 {
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1.5px;
+}
+
+.order-history .table {
+    color: white;
+    margin-top: 16px;
+}
+
+.my-cart {
+    padding: 56px;
+    text-align: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.my-cart h1 {
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1.5px;
+}
+
+.my-cart .table {
+    color: white;
+    margin-top: 16px;
+}
+
+.my-cart .table button {
+    font-size: 13px;
+}
+
+.admin-dashboard {
+    padding: 36px;
+    text-align: center;
+}
+
+.admin-dashboard .box-count {
+    background-color: #f5ffbb;
+    padding: 16px;
+    border-radius: 12px;
+    color: #353535;
+    font-family: 'Poppins', sans-serif;
+}
+
+.admin-dashboard .table {
+    margin-top: 36px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.admin-dashboard .table button {
+    font-size: 13px;
+}
+
+.modal-content .admin-update .form-select {
+    width: 100%;
+}
